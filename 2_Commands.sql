@@ -17,3 +17,15 @@ It is subset of SQL used to define and modify the structure of database objects 
       e) TRUNCATE: 
                 Used to remove all the rows from a table without deleting the table structure.
                 Syntax: TRUNCATE TABLE Employee;
+
+2) DML (Data Manipulation language):
+It focuses on inserting, deleting , updationg and reteriving data within the existing databases.
+      a) INSERT: 
+                Used to add new rows of data in a table.
+                Syntax: INSERT INTO Employee (Emp_id, Employee_name, Employee_Department, Employee_Salary, Employee_hiredate) values (1,'Nouma','Computer Science',50000, 2020);
+      b) UPDATE:
+                Used to modify the existing data in a table.
+                Syntax: UPDATE Employee set Employee_id WHERE Employee_salary>10000;
+      c) DELETE:
+                Used to remove specific rows from table.
+                Syntax: DELLETE FROM Empoyee WHERE Employee_id=1;
