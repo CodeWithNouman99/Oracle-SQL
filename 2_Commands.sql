@@ -11,10 +11,10 @@ It is subset of SQL used to define and modify the structure of database objects 
       c) DROP:
                  Used to delete an existing database objects.
                  Syntax: Drop table Employee;
-      d) RENAME:
+      d)RENAME:
                 Used to rename an existing database object.
                 Syntax: Alter table Employee Rename to Staff;
-      e) TRUNCATE: 
+      e)TRUNCATE: 
                 Used to remove all the rows from a table without deleting the table structure.
                 Syntax: TRUNCATE TABLE Employee;
 
@@ -22,10 +22,14 @@ It is subset of SQL used to define and modify the structure of database objects 
 It focuses on inserting, deleting , updationg and reteriving data within the existing databases.
       a) INSERT: 
                 Used to add new rows of data in a table.
-                Syntax: INSERT INTO Employee (Emp_id, Employee_name, Employee_Department, Employee_Salary, Employee_hiredate) values (1,'Nouma','Computer Science',50000, 2020);
+                Syntax: INSERT INTO Employee (Emp_id, Employee_name, Employee_Department, Employee_Salary, Employee_hiredate) values (1,'Nouman','Computer Science',50000, 2020);
       b) UPDATE:
                 Used to modify the existing data in a table.
                 Syntax: UPDATE Employee set Employee_id WHERE Employee_salary>10000;
       c) DELETE:
                 Used to remove specific rows from table.
                 Syntax: DELLETE FROM Empoyee WHERE Employee_id=1;
+
+Order by:
+          Used to sort the data returned by a query in ascending or descending order.
+          Syntax: SELECT column_list FROM table_name ORDER BY column_name ASC|DESC;
