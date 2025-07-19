@@ -19,6 +19,7 @@ It is subset of SQL used to define and modify the structure of database objects 
                 Syntax: TRUNCATE TABLE Employee;
 
 2) DML (Data Manipulation language):
+  
 It focuses on inserting, deleting , updationg and reteriving data within the existing databases.
       a) INSERT: 
                 Used to add new rows of data in a table.
@@ -30,6 +31,12 @@ It focuses on inserting, deleting , updationg and reteriving data within the exi
                 Used to remove specific rows from table.
                 Syntax: DELLETE FROM Empoyee WHERE Employee_id=1;
 
-Order by:
-          Used to sort the data returned by a query in ascending or descending order.
-          Syntax: SELECT column_list FROM table_name ORDER BY column_name ASC|DESC;
+							                  	Table Relationships:
+                                    
+      =>It is established when a child table defines a foreign key column that reference the primary key column of its parent table.
+    1)One to One:
+	                One record in a table is asscoicated with one and only one record.
+    2)One to Many:
+	                One record in table can be associated with one  or more records in another table.
+      3)Manyto Many:
+                Multiple records in a table is associated with multiple records in another table.
