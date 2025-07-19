@@ -1,4 +1,4 @@
-SQL Commands:
+                                                                          SQL Commands:
   
 1) DDL (Data Definition Language):
 It is subset of SQL used to define and modify the structure of database objects such as tables, indexes and schemas.
